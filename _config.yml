@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: bioinformatics, computational biology, spatial transcriptomics, biostatistics, data science, academic-website
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://oceanuszhang.github.io/ # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
