@@ -1,0 +1,39 @@
+# Events: talks, presentations, and conference participation
+# Add new entries at the top of each section (most recent first)
+
+presentations:
+  - title: "Beyond the Burrow: Spatial Dynamics and Behavioral Syndromes in Desert Kangaroo Rats"
+    event: Society for Integrative and Comparative Biology Annual Meeting (SICB 2023)
+    date: January 2023
+    location: Austin, TX
+    type: Abstract Presentation
+    role: Presenter
+
+conferences:
+  - name: IEEE International Conference on Image Processing (ICIP 2025)
+    date: August 2025
+    location: TBD
+    role: Co-author
+    note: Paper Accepted
+    paper: "DISCO: A Diffusion Model for Spatial Transcriptomics Data Completion"
+
+  - name: Alzheimer's Association International Conference (AAIC 2025)
+    date: July 2025
+    location: Philadelphia, PA
+    role: Co-author
+    note: Abstract Accepted
+    paper: "Telehealth-based Stress Reduction for Mild Cognitive Impairment Patients"
+
+  - name: North American Primary Care Research Group Annual Meeting (NAPCRG 2025)
+    date: November 2025
+    location: TBD
+    role: Co-author
+    note: Abstract Accepted
+    paper: "Telemedicine Versus In-Person Primary Care Visitors for Upper Respiratory Infections: Comparison of Antibiotic Prescribing"
+
+  - name: Society for Integrative and Comparative Biology Annual Meeting (SICB 2023)
+    date: January 2023
+    location: Austin, TX
+    role: Presenter
+    note: Abstract Presented
+    paper: "Beyond the Burrow: Body Condition and Sex Influence Exploratory Behavior in Desert Kangaroo Rats (Dipodomys deserti)"

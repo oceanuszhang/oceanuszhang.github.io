@@ -1,13 +1,23 @@
 ---
-layout: book-shelf
-title: bookshelf
+layout: page
+title: Bookshelf
 permalink: /books/
-nav: false
-collection: books
+nav: true
+nav_order: 10
 ---
 
-> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
->
-> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+Books I've especially loved are marked with a ★.
 
-## Books that I am reading, have read, or will read
+{% for year_entry in site.data.books.years %}
+
+## {{ year_entry.year }}
+
+{% if year_entry.books and year_entry.books.size > 0 %}
+{% for book in year_entry.books %}
+- {% if book.favorite %}★ {% endif %}*{{ book.title }}* — {{ book.author }}
+{% endfor %}
+{% else %}
+*(coming soon)*
+{% endif %}
+
+{% endfor %}

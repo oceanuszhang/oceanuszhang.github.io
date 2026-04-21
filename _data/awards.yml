@@ -1,0 +1,29 @@
+# Awards, scholarships, and fellowships
+# Most recent first
+
+awards:
+  - title: UC Irvine Biological Sciences Honors Program
+    date: June 2023
+    organization: University of California, Irvine
+    organization_url: https://www.bio.uci.edu/
+    description: >
+      Completed advanced independent research through UCI's Excellence in Research Program,
+      earning Honors in Biological Sciences for demonstrated research excellence.
+
+  - title: Dr. Lionel and Fay Ng Scholarship
+    date: May 2022, May 2023
+    amount: "$10,000 total"
+    organization: UC Irvine School of Biological Sciences
+    organization_url: https://www.bio.uci.edu/
+    description: >
+      Awarded $10,000 over consecutive years for academic and research excellence
+      in the School of Biological Sciences, with preference for International Students.
+
+  - title: UC Irvine Summer Undergraduate Research Fellowship (SURF)
+    date: June 2022
+    amount: "$1,500"
+    organization: University of California, Irvine
+    organization_url: https://urop.uci.edu/surf/
+    description: >
+      Competitive fellowship for undergraduate students seeking intensive research training.
+      Awarded $1,500 for independent research during Summer 2022.

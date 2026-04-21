@@ -6,8 +6,8 @@
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
+  border-bottom: none;
+  background-color: #1c1c1d;
   opacity: 0.95;
 }
 
@@ -56,11 +56,14 @@
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    color: #ffffff;
+    span {
+      color: #ffffff !important;
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: #e8e8e8;
 
     &:hover {
       color: var(--global-hover-color);
