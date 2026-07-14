@@ -3,12 +3,16 @@ years:
     books:
       - title: The ABC Murders
         author: Agatha Christie
+      - title: Project Hail Mary
+        author: Andy Weir
 
   - year: 2025
     books:
       - title: Crying in H Mart
         author: Michelle Zauner
         favorite: true
+      - title: The Vegetarian
+        author: Han Kang
 
   - year: 2024
     books:
@@ -23,7 +27,51 @@ years:
         author: Elena Ferrante
 
   - year: 2023
-    books: []
+    books:
+      - title: One Hundred Years of Solitude
+        author: Gabriel García Márquez
+      - title: Border Town
+        author: Shen Congwen
+      - title: Stories of the Sahara
+        author: Sanmao
+      - title: The Plague
+        author: Albert Camus
 
   - year: 2022
-    books: []
+    books:
+      - title: Bizarre Stories
+        author: Olga Tokarczuk
+      - title: How Many Flowers Fall in Dreams
+        author: Sanmao
+
+  - year: 2021
+    books:
+      - title: Malice
+        author: Keigo Higashino
+      - title: The Miracles of the Namiya General Store
+        author: Keigo Higashino
+      - title: Metamorphosis
+        author: Keigo Higashino
+      - title: After School
+        author: Keigo Higashino
+      - title: Journey Under the Midnight Sun
+        author: Keigo Higashino
+
+  - year: 2020
+    books:
+      - title: And Then There Were None
+        author: Agatha Christie
+      - title: ZOO
+        author: Otsuichi
+      - title: No Longer Human
+        author: Osamu Dazai
+      - title: The Alchemist
+        author: Paulo Coelho
+      - title: Animal Farm
+        author: George Orwell
+      - title: Death on the Nile
+        author: Agatha Christie
+      - title: Murder on the Orient Express
+        author: Agatha Christie
+      - title: Gone with the Wind
+        author: Margaret Mitchell
