@@ -14,10 +14,11 @@ Books I've especially loved are marked with a ★.
 
 {% if year_entry.books and year_entry.books.size > 0 %}
 {% for book in year_entry.books %}
-- {% if book.favorite %}★ {% endif %}*{{ book.title }}* — {{ book.author }}
-{% endfor %}
-{% else %}
-*(coming soon)*
-{% endif %}
+
+- {% if book.favorite %}★ {% endif %}_{{ book.title }}_ — {{ book.author }}
+  {% endfor %}
+  {% else %}
+  _(coming soon)_
+  {% endif %}
 
 {% endfor %}

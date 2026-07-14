@@ -48,6 +48,7 @@ Jekyll assembles pages from three layers:
 ### Configuration Flow
 
 `_config.yml` is the single source of truth for site-wide behavior:
+
 - `url` + `baseurl` must match your deployment type (personal site: `baseurl:` empty; project site: `baseurl: /repo-name/`)
 - Feature flags (`enable_darkmode`, `enable_math`, `enable_masonry`, etc.) control optional features
 - `scholar:` block configures publication author highlighting — `last_name`/`first_name` must match BibTeX author strings exactly
@@ -55,17 +56,18 @@ Jekyll assembles pages from three layers:
 
 ### Content Collections
 
-| Directory | Purpose | Naming |
-|---|---|---|
-| `_posts/` | Blog posts | `YYYY-MM-DD-title.md` (required) |
-| `_projects/` | Project cards | any `.md` |
-| `_news/` | Homepage announcements | any `.md` |
-| `_teachings/` | Course pages | any `.md` |
-| `_bibliography/papers.bib` | Publications (BibTeX) | standard BibTeX + al-folio custom fields |
+| Directory                  | Purpose                | Naming                                   |
+| -------------------------- | ---------------------- | ---------------------------------------- |
+| `_posts/`                  | Blog posts             | `YYYY-MM-DD-title.md` (required)         |
+| `_projects/`               | Project cards          | any `.md`                                |
+| `_news/`                   | Homepage announcements | any `.md`                                |
+| `_teachings/`              | Course pages           | any `.md`                                |
+| `_bibliography/papers.bib` | Publications (BibTeX)  | standard BibTeX + al-folio custom fields |
 
 ### CV System
 
 Two parallel CV formats are supported simultaneously:
+
 - **RenderCV** (`_data/cv.yml`) — YAML format; auto-generates PDF via GitHub Actions (`render-cv.yml`)
 - **JSONResume** (`assets/json/resume.json`) — standard JSON format
 - Switch which format displays via `cv_format` frontmatter in `_pages/cv.md`

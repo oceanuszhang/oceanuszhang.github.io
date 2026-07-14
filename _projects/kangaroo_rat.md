@@ -12,7 +12,7 @@ Undergraduate research at **[UC Irvine School of Biological Sciences](https://ww
 
 ### Overview
 
-Individual animals within a population exhibit consistent behavioral differences — a phenomenon known as animal personality or behavioral syndromes. This project investigated whether body condition and sex predict exploratory behavior in desert kangaroo rats (*Dipodomys deserti*) in the wild.
+Individual animals within a population exhibit consistent behavioral differences — a phenomenon known as animal personality or behavioral syndromes. This project investigated whether body condition and sex predict exploratory behavior in desert kangaroo rats (_Dipodomys deserti_) in the wild.
 
 ### Field Research
 

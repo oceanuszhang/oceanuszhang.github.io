@@ -14,6 +14,7 @@ I am passionate about education and science communication. During my PhD at UC M
 ## Teaching Assistantships
 
 ### Introductory Psychology I: Psychobiology & Cognition (PSYC 110)
+
 **Emory University, Department of Psychology** · Atlanta, GA · Aug 2023 – Dec 2023
 
 - Assisted in instruction for a large introductory course covering psychobiology, neuroscience, and cognition
@@ -25,6 +26,7 @@ I am passionate about education and science communication. During my PhD at UC M
 ## Mentoring
 
 ### Student Research Mentor
+
 **University of California, Irvine — International Students Excellence Program** · Irvine, CA · July 2022 – July 2023
 
 - Mentored six first-year undergraduate students across diverse disciplines
