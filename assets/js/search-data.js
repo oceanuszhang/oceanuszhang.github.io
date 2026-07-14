@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -419,6 +419,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-committed-to-pursuing-a-phd-in-computational-biology-at-uc-merced-excited-for-the-journey-ahead",
           title: 'Committed to pursuing a PhD in Computational Biology at UC Merced. Excited for...',
+          description: "",
+          section: "News",},{id: "news-nominated-and-selected-to-receive-the-2-year-incubate-nih-t32-fellowship",
+          title: 'Nominated and selected to receive the 2-year InCuBaTE (NIH T32) Fellowship.',
+          description: "",
+          section: "News",},{id: "news-starting-participation-in-the-summer-bridge-competitive-program-at-uc-merced",
+          title: 'Starting participation in the Summer Bridge Competitive Program at UC Merced.',
           description: "",
           section: "News",},{id: "projects-omics-study-design-tools",
           title: 'Omics Study Design Tools',
