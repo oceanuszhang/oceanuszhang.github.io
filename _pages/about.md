@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming PhD Student in Computational Biology · <a href="https://www.ucmerced.edu/" target="_blank">UC Merced</a>
+subtitle: 1st Year PhD Student in Computational Biology · <a href="https://www.ucmerced.edu/" target="_blank">UC Merced</a>
 
 profile:
   align: right
