@@ -110,11 +110,6 @@ ninja.data = [{
           description: "voom-limma pipeline for sex-specific miRNA analysis in Alzheimer&#39;s disease and MCI · Emory School of Medicine",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mirna_pipeline/";
-            },},{id: "projects-spatial-transcriptomics-ml-completion-pipeline",
-          title: 'Spatial Transcriptomics ML Completion Pipeline',
-          description: "Deep learning benchmark pipeline for missing region imputation · UC Irvine CS",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/spatial_ml_pipeline/";
             },},{id: "projects-microbiome-data-science-platform",
           title: 'Microbiome Data Science Platform',
           description: "Graph database, diet profiling pipeline, and ML purchase prediction · Zymo Research",
