@@ -35,7 +35,7 @@ I am passionate about education and science communication. During my PhD at UC M
 
 ## Future Teaching
 
-As an incoming PhD student in Computational Biology at UC Merced, I look forward to contributing as a teaching assistant in courses related to:
+As a 1st year PhD student in Computational Biology at UC Merced, I look forward to contributing as a teaching assistant in courses related to:
 
 - Bioinformatics and computational biology
 - Biostatistics and data analysis

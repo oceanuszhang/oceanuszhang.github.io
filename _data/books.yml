@@ -1,12 +1,26 @@
 years:
   - year: 2026
-    books: []
+    books:
+      - title: The ABC Murders
+        author: Agatha Christie
 
   - year: 2025
-    books: []
+    books:
+      - title: Crying in H Mart
+        author: Michelle Zauner
+        favorite: true
 
   - year: 2024
-    books: []
+    books:
+      - title: My Brilliant Friend
+        author: Elena Ferrante
+        favorite: true
+      - title: The Story of a New Name
+        author: Elena Ferrante
+      - title: Those Who Leave and Those Who Stay
+        author: Elena Ferrante
+      - title: The Story of the Lost Child
+        author: Elena Ferrante
 
   - year: 2023
     books: []

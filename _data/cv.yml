@@ -1,10 +1,10 @@
 cv:
   name: Oceanus (Zhuoyang) Zhang
-  label: Incoming PhD Student in Computational Biology
+  label: 1st Year PhD Student in Computational Biology
   email: oceanus315@gmail.com
   location: "Fremont, CA"
   summary: >
-    Incoming PhD student in Computational Biology at UC Merced. MPH in Biostatistics &
+    1st year PhD student in Computational Biology at UC Merced. MPH in Biostatistics &
     Bioinformatics from Emory University. Research interests in bioinformatics, spatial
     transcriptomics, statistical genomics, and machine learning in biomedicine.
 
@@ -148,6 +148,11 @@ cv:
           - Mentored six first-year undergraduate students across diverse disciplines on research design, funding opportunities, and career planning through UCI's International Students Excellence Program
 
     Awards, Fellowships and Scholarships:
+      - title: InCuBaTE (NIH T32) Fellowship
+        date: 2026-07-12
+        awarder: National Institutes of Health
+        summary: Nominated and selected to receive a 2-year NIH T32 InCuBaTE Fellowship.
+
       - title: Longitudinal Data Visualization Award — 1st Place
         date: 2025
         awarder: Emory University — BIOS 590 Class Competition
