@@ -11,6 +11,11 @@
   opacity: 0.95;
 }
 
+/* Mobile collapsed menu stays dark with white text */
+.navbar-collapse {
+  background-color: #1c1c1d;
+}
+
 .navbar .dropdown-menu,
 .btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -123,7 +128,7 @@
     display: block;
     width: 22px;
     height: 2px;
-    background-color: var(--global-text-color);
+    background-color: #ffffff;
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;

@@ -13,12 +13,12 @@ profile:
     <p>📞 (949) 981-6335</p>
     <p style="margin-top: 0.5rem; font-size: 0.85rem;">Open to research collaborations and inquiries.</p>
 
-selected_papers: true
+selected_papers: false
 social: false
 
 announcements:
   enabled: true
-  scrollable: true
+  scrollable: false
   limit: 5
 
 latest_posts:
