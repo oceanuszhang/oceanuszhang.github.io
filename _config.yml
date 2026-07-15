@@ -201,6 +201,7 @@ exclude:
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
+  - traffic_log.json
   - readme_preview/
   - vendor
 keep_files:

@@ -1,0 +1,73 @@
+name: Track Visitor Traffic
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Daily at midnight UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  track-traffic:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch and log traffic data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/traffic/views" \
+            > /tmp/views.json
+
+          python3 << 'EOF'
+          import json, datetime
+
+          today = datetime.date.today().isoformat()
+
+          with open('/tmp/views.json') as f:
+              traffic = json.load(f)
+
+          if not isinstance(traffic.get('views'), list):
+              print("No traffic data available.")
+              exit(0)
+
+          try:
+              with open('traffic_log.json') as f:
+                  log = json.load(f)
+          except FileNotFoundError:
+              log = {"log": []}
+
+          today_data = next(
+              ({"date": today, "views": d["count"], "unique_visitors": d["uniques"]}
+               for d in traffic["views"] if d["timestamp"].startswith(today)),
+              {"date": today, "views": 0, "unique_visitors": 0}
+          )
+
+          entries = log["log"]
+          for i, e in enumerate(entries):
+              if e["date"] == today:
+                  entries[i] = today_data
+                  break
+          else:
+              entries.append(today_data)
+
+          entries.sort(key=lambda x: x["date"])
+          log["log"] = entries
+
+          with open('traffic_log.json', 'w') as f:
+              json.dump(log, f, indent=2)
+
+          print(f"Logged: {today_data}")
+          EOF
+
+      - name: Commit traffic log
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: update daily traffic log"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          file_pattern: traffic_log.json
