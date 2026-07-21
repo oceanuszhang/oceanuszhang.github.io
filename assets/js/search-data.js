@@ -59,12 +59,7 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-paper-accepted-at-journal-of-hospital-medicine-association-of-neighborhood-location-and-30-day-readmissions-in-patients-with-diabetes",
+      },{id: "news-paper-accepted-at-journal-of-hospital-medicine-association-of-neighborhood-location-and-30-day-readmissions-in-patients-with-diabetes",
           title: 'Paper accepted at Journal of Hospital Medicine: Association of Neighborhood Location and 30-Day...',
           description: "",
           section: "News",},{id: "news-paper-accepted-at-ieee-icip-2025-disco-a-diffusion-model-for-spatial-transcriptomics-data-completion",
@@ -84,6 +79,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-starting-participation-in-the-summer-bridge-competitive-program-at-uc-merced",
           title: 'Starting participation in the Summer Bridge Competitive Program at UC Merced.',
+          description: "",
+          section: "News",},{id: "news-started-rotation-1-with-dr-zhong-wang-working-on-genomic-foundation-models-genomeocean",
+          title: 'Started Rotation 1 with Dr. Zhong Wang, working on genomic foundation models (GenomeOcean)....',
           description: "",
           section: "News",},{id: "projects-omics-study-design-tools",
           title: 'Omics Study Design Tools',
