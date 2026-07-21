@@ -35,15 +35,15 @@ Prettier formatting is enforced by CI — PRs fail if files aren't formatted.
 
 ## Content
 
-| Directory                  | Purpose                          |
-| --------------------------- | --------------------------------- |
-| `_pages/`                   | Static pages (about, CV, projects, publications, ...) |
-| `_posts/`                   | Blog posts                        |
-| `_projects/`                | Project cards                     |
-| `_news/`                    | Homepage announcements            |
-| `_teachings/`               | Course pages                      |
-| `_bibliography/papers.bib`  | Publications (BibTeX)             |
-| `_data/`                    | Structured data (CV, awards, events, books, socials, ...) |
+| Directory                  | Purpose                                                   |
+| -------------------------- | --------------------------------------------------------- |
+| `_pages/`                  | Static pages (about, CV, projects, publications, ...)     |
+| `_posts/`                  | Blog posts                                                |
+| `_projects/`               | Project cards                                             |
+| `_news/`                   | Homepage announcements                                    |
+| `_teachings/`              | Course pages                                              |
+| `_bibliography/papers.bib` | Publications (BibTeX)                                     |
+| `_data/`                   | Structured data (CV, awards, events, books, socials, ...) |
 
 ## Deployment
 
