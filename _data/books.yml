@@ -9,6 +9,11 @@ years:
         author: Matthew Walker
       - title: Pet Sematary
         author: Stephen King
+      - title: Your Inner Fish
+        author: Neil Shubin
+      - title: Bright Night
+        author: Choi Eun-young
+        favorite: true
 
   - year: 2025
     books:
