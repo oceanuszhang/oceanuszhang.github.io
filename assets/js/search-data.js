@@ -74,8 +74,8 @@ ninja.data = [{
           section: "News",},{id: "news-committed-to-pursuing-a-phd-in-computational-biology-at-uc-merced-excited-for-the-journey-ahead",
           title: 'Committed to pursuing a PhD in Computational Biology at UC Merced. Excited for...',
           description: "",
-          section: "News",},{id: "news-nominated-and-selected-to-receive-the-2-year-incubate-nih-t32-fellowship",
-          title: 'Nominated and selected to receive the 2-year InCuBaTE (NIH T32) Fellowship.',
+          section: "News",},{id: "news-nominated-and-selected-to-receive-the-2-year-incubate-nih-t32-fellowship-link",
+          title: 'Nominated and selected to receive the 2-year InCuBaTE (NIH T32) Fellowship. Link',
           description: "",
           section: "News",},{id: "news-starting-participation-in-the-summer-bridge-competitive-program-at-uc-merced",
           title: 'Starting participation in the Summer Bridge Competitive Program at UC Merced.',
@@ -149,7 +149,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=", "_blank");
+          window.open("https://scholar.google.com/citations?user=owvKK0kAAAAJ", "_blank");
         },
       },{
         id: 'social-github',
@@ -163,6 +163,6 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/", "_blank");
+          window.open("https://www.linkedin.com/in/oceanuszhang", "_blank");
         },
       },];
