@@ -14,7 +14,7 @@ profile:
     <p style="margin-top: 0.5rem; font-size: 0.85rem;">Open to research collaborations and inquiries.</p>
 
 selected_papers: false
-social: false
+social: true
 
 announcements:
   enabled: true
