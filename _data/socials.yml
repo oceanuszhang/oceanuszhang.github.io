@@ -2,9 +2,7 @@
 # Fill in your actual usernames/IDs where indicated
 # See: https://github.com/george-gca/jekyll-socials for all supported fields
 
-cv_pdf: /assets/pdf/example_pdf.pdf # update path when CV PDF is ready
-email: oceanus315@gmail.com
-rss_icon: false
+cv_pdf: /cv/
 scholar_userid: owvKK0kAAAAJ
 github_username: oceanuszhang
 linkedin_username: oceanuszhang
